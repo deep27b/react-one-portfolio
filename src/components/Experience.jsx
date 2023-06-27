@@ -4,6 +4,7 @@ import css from "../assets/tech/css.png";
 import javascript from "../assets/tech/javascript.png";
 import reactImage from "../assets/tech/reactImage.jpg";
 import angular from "../assets/tech/angular.png";
+import sql from "../assets/tech/sql.jpg";
 
 
 export const Experience = () => {
@@ -19,25 +20,31 @@ export const Experience = () => {
             id:2,
             src: css,
             title:'CSS',
-            style: 'shadow-orange-500'
+            style: 'shadow-gray-500'
         },
         {
             id:3,
             src: javascript,
             title:'JavaScript',
-            style: 'shadow-orange-500'
+            style: 'shadow-yellow-500'
         },
         {
             id:4,
             src: reactImage,
             title:'React',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-500'
         },
         {
             id:5,
             src: angular,
             title:'Angular',
-            style: 'shadow-orange-500'
+            style: 'shadow-red-500'
+        },
+        {
+            id:6,
+            src: sql,
+            title:'SQL',
+            style: 'shadow-blue-500'
         }
     ]
   return (
