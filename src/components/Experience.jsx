@@ -55,6 +55,7 @@ export const Experience = () => {
                     Experience
                 </p>
                 <p className="py-6">
+                    I have learned a lot of skills as a frontend developer and I am always learning someting new to add a new skill to the list.
                     These are the Techniologies I worked with
                 </p>
             </div>
